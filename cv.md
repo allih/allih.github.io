@@ -3,7 +3,17 @@ title: CV - Hellison Askes
 layout: default
 ---
 
-1. Study, study, study.
-2. PhD
-3. ?
-4. Success!
+<table>
+  <thead>
+    <tr>
+      <td>Year</td>
+      <td>Job</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1984</td>
+      <td>Birth</td>
+    </tr>
+  </tbody>
+</table>
