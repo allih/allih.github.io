@@ -1,5 +1,5 @@
 ---
-title: Hellison Askes - Research
+title: Research - Hellison Askes
 layout: default
 ---
 _Hollison stands in **the lab**, too!_

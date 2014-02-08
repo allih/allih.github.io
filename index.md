@@ -1,5 +1,5 @@
 ---
-title: Hellison Askes - Hello!
+title: Hellison Askes
 layout: default
 ---
 _Hollison is totally the **coolest**!_
