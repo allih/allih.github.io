@@ -370,7 +370,10 @@ Full-Width Styles
   background: #212121;
 }
 
-
+ul.navigation li {
+  float: left;
+  list-style: none;
+}
 
 /*******************************************************************************
 Small Device Styles
