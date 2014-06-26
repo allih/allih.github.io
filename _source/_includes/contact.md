@@ -1,6 +1,6 @@
 ## Get in touch
 
-I am interested in conferences and collaborating with people with have integrity and wish to do good science.
+I am interested in conferences and collaborating.
 
 a dot heskes at gmail dot com
 

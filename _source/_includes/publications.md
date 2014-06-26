@@ -4,7 +4,7 @@
 
 1. _Manoyloxide (13R), the biosynthetic precursor of forskolin, is synthesized in specialized root cork cells in Coleus forskohlii._
  <br>
- Irini Pateraki, Johan Andersen-Ranberg, Britta Hamberger, Allison Maree Heskes, Helle Juel Martens, Philipp Zerbe, Søren Spanner Bach, Birger Lindberg Lindberg Møller, Jórg Bohlmann, Björn Hamberger;
+ Irini Pateraki, Johan Andersen-Ranberg, Britta Hamberger, Allison Maree Heskes, Helle Juel Martens, Philipp Zerbe, Søren Spanner Bach, Birger Lindberg Lindberg Møller, Jórg Bohlmann, Björn Hamberger
  <br>
  Plant physiology 01/2014
 1. _Contrasting ontogenetic trajectories for phenolic and terpenoid defences in Eucalyptus froggattii._
