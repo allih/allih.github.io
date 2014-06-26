@@ -444,16 +444,16 @@ div.bl-panel-items > div.bl-hide-current-work {
 /* Section background colors */
 
 .bl-main > section:first-child.bl-expand {
-	background: #144057;
+	background: #044c72;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #2c2c2c;
+	background: #461344;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #ee6557;
+	background: #a04317;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #bfbfbf;
+	background: #9b7412;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),

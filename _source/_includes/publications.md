@@ -32,9 +32,6 @@
  Jason Qd Goodger, Allison M Heskes, Madeline C Mitchell, Drew J King, Elizabeth H Neilson, Ian E Woodrow
  <br>
  Plant Methods 01/2010; 6:20.
-
-### Notes
-
 1. [_Micropropagation of Eucalyptus polybractea selected for key essential oil traits_](http://www.researchgate.net/publication/223138641_Micropropagation_of_Eucalyptus_polybractea_selected_for_key_essential_oil_traits/file/d912f4ff6300a1fb33.pdf)
  <br>
  Jason Q. D. Goodger, Allison M. Heskes, Drew J. King, Roslyn M. Gleadow, Ian E. Woodrow
