@@ -1,4 +1,4 @@
-source: .
+source: _source
 destination: _site
 name: Hellison Askes
 markdown: redcarpet
