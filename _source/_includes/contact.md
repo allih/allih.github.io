@@ -2,9 +2,15 @@
 
 I am interested in hearing from you.
 
-a dot heskes at gmail dot com
+Faculty of Science
+<br/>
+Dept. of Plant and Environmental Sciences
+<br/>
+University of Copenhagen
+<br/>
+Frederiksberg C, Denmark
 
-University of Copenhagen, Denmark
+amh at plen.ku.dk
 
 <a href="http://www.researchgate.net/profile/Allison_Heskes" class="social-network feedburner"></a>
 <a href="https://www.linkedin.com/pub/allison-heskes/56/62a/81b" class="social-network linkedin"></a>
