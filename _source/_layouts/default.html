@@ -24,6 +24,7 @@
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/component.css" rel="stylesheet">
+    <link href="css/customized.css" rel="stylesheet">
 
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -41,15 +42,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png">
-
-
   </head>
-
   <body>
-
-
     <div class="container">
-
 			<div id="bl-main" class="bl-main">
 			
 			<!--=========== ABOUT SECTION ===========-->
@@ -62,66 +57,36 @@
 							<div class="span12">
                 {% markdown about.md %}
 								<div class="row-fluid">
-									<div class="span8">
-									<h2>My Interests</h2>
-									    <!-- Progress Bar --> 
-										<div class="progress">
-										<div class="bar" style="width: 80%;">Metabolomics</div>
-										</div>  
-										<div class="progress">
-										<div class="bar" style="width: 100%;">Terpenoids</div>
-										</div>  
-										<div class="progress">
-										<div class="bar" style="width: 69%;">Hiking</div>
-										</div>  
-										<div class="progress">
-										<div class="bar" style="width: 40%;">Crochet</div>
-										</div>  
-										<div class="progress">
-										<div class="bar" style="width: 75%;">Plant Biochemistry</div>
-										</div> 
-										<!-- Progress Bar End --> 
-									</div><!-- /span6 -->
-									<div class="span4"></div>
-									<div class="span12">
-										<br>
-										<br>
-									</div>
+									<div class="span6">
+  									<h2>My Interests</h2>
+                      {% progress Metabolomics 80 %}
+                      {% progress Terpenoids 100 %}
+                      {% progress Hiking 69 %}
+                      {% progress Crochet 40 %}
+                      {% progress Plant Biochemistry 75 %}
+  									</div><!-- /span6 -->
 									<div class="span12">
 										<div class="row about-us">
 											<div class="span3">
-											<h3><i class="icon-user icon-white"></i>&nbsp;More About Me?</h3>
-											I grew up in the Dandenongs near Melbourne, Australia.
-                      I completed my studies at the School of Botany at the University
-                      of Melbourne.
+                        {% markdown about/me.md %}
 											</div>
 											<div class="span3">
-											<h3><i class="icon-heart icon-white"></i>&nbsp;What I Love</h3>
-											Any kind of food doused in olive oil.
-                      Trees.
-                      Riding a bike.
-                      Creating and tending gardens.
-                      Listening to science podcasts while crocheting.
+                        {% markdown about/love.md %}
 											</div>
 											<div class="span3">
-											<h3><i class="icon-fire icon-white"></i>&nbsp;Work Hard</h3>
-											Claritas est etiam processus dynamicus, and mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc. Parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima.
+  											{% markdown about/music.md %}
 											</div>   
 											<div class="span3">
-											<h3><i class="icon-plane icon-white"></i>&nbsp;Ready To Go</h3>
-											Claritas est etiam processus dynamicus, and mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc. Parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima.
+  											{% markdown about/travel.md %}
 											</div>   
 										</div><!-- /row-about-us -->  
 									</div><!-- /span12 -->
 								</div><!-- /row -->
 							</div><!-- /span12 -->
 						</div><!-- /row-fluid -->
-						
 					</div><!-- /bl-content -->
 					<span class="bl-icon bl-icon-close"></span>
 				</section>
-				
-				
 				
 			<!--=========== PORTFOLIO SECTION ===========-->
 				<section id="bl-work-section">
@@ -151,15 +116,12 @@
 								</ul>
                 {% markdown project3-link.md %}							
 							</div><!-- /span4 -->
-
 						</div><!-- /row-fluid -->
 					</div><!-- /bl-content -->
 					<span class="bl-icon bl-icon-close"></span>
 				</section>
 				
-				
-				
-			<!--=========== BLOG SECTION ===========-->
+			<!--=========== PUBLICATION SECTION ===========-->
 				<section>
 					<div class="bl-box">
             {% markdown publications-link.md %}
@@ -168,35 +130,11 @@
 						<div class="row-fluid">
 							<div class="span12">
                 {% markdown publications.md %}
-                <!-- <h2>Latest Blog Entry</h2>
-                <article>
-                  <h3>Expanding Your Horizons</h3>
-                  <img src="images/blogentry.jpg" alt="">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<a href="#">Read more</a></p>
-                </article>
-                <hr>
-                <h2>Other Entries</h2>
-                <article>
-                  <h3>Blog Post 1</h3>
-                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text.... <a href="#">Read more</a></p>
-                </article>
-                <article>
-                  <h3>Blog Post 2</h3>
-                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text.... <a href="#">Read more</a></p>
-                </article>
-                <article>
-                  <h3>Blog Post 3</h3>
-                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text.... <a href="#">Read more</a></p>
-                </article> -->
-								
 							</div><!-- /span12 -->
 						</div><!-- /row-fluid -->
 					</div><!-- /bl-content -->
 					<span class="bl-icon bl-icon-close"></span>
 				</section>
-				
-				
 				
 			<!--=========== CONTACT SECTION ===========-->
 				<section>
@@ -208,25 +146,17 @@
 							<div class="span12">
                 {% markdown contact.md %}
   						</div>
+            </div>
 					</div>
 					<span class="bl-icon bl-icon-close"></span>
 				</section>
 				
-				
-				
-				
-			<!--=========== PROJECTS DESCRIPTIONS SECTION ===========-->
+			<!--=========== PROJECTS SECTION ===========-->
 				<div class="bl-panel-items" id="bl-panel-work-items">
 					<div data-panel="panel-1">
 						<div class="row-fluid">
 							<div class="span8 offset2 tweak">
-								<h4>Project Overview</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-								<img src="images/project1.jpg" />
-								<br>
-								<br>
-								<h4>Project Details</h4>
-								<p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+								{% markdown projects/project1.md %}
 							</div><!-- /span8 -->
 						</div><!-- /row-fluid -->	
 					</div><!-- /panel1 -->
@@ -234,13 +164,7 @@
 					<div data-panel="panel-2">
 						<div class="row-fluid">
 							<div class="span8 offset2 tweak">
-  						<h4>Project Overview</h4>
-  						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-							<img src="images/project2.jpg" />
-							<br>
-							<br>
-							<h4>Project Details</h4>
-							<p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  						  {% markdown projects/project2.md %}
 							</div><!-- /span8 -->
 						</div><!-- /row-fluid -->	
 					</div><!-- /panel2 -->
@@ -248,34 +172,24 @@
 					<div data-panel="panel-3">
 						<div class="row-fluid">
 							<div class="span8 offset2 tweak">
-							<h4>Project Overview</h4>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-              <img src="images/project3.jpg" />
-							<br>
-							<br>
-							<h4>Project Details</h4>
-							<p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                {% markdown projects/project3.md %}
 							</div><!-- /span8 -->
 						</div><!-- /row-fluid -->	
 					</div><!-- /panel3 -->
 					
 					<nav>
-						<span class="bl-next-work">&gt; Next Project</span>
+            <span class="bl-next-work">&gt; Next Project</span>
 						<span class="bl-icon bl-icon-close"></span>
 					</nav>
 				</div><!-- /panel-items -->
-				
-				
 			</div><!-- /bl-main -->
-
     </div> <!-- /container -->
 
-    <!-- Le javascript
+    <!-- JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
 		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/boxlayout.js"></script>
 		<script>
